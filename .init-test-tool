@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend"
+}

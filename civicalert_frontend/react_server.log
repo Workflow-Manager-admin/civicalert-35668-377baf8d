@@ -1,0 +1,666 @@
+
+> react-kavia@0.1.0 start
+> cross-env EDIT_MODE=true webpack serve --config .ve/webpack.config.js --mode development
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:3000/, http://[::1]:3000/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
+<i> [webpack-dev-server] Content not from webpack is served from './public' directory
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+asset bundle.js 1.39 MiB [emitted] (name: main)
+asset index.html 1.92 KiB [emitted]
+runtime modules 27.5 KiB 14 modules
+modules by path ./node_modules/ 1.24 MiB 31 modules
+modules by path ./src/ 10.3 KiB
+  modules by path ./src/*.css 7.49 KiB 4 modules
+  modules by path ./src/*.js 2.76 KiB
+    ./src/index.js 530 bytes [built] [code generated]
+    ./src/App.js 2.24 KiB [built] [code generated]
+modules by path ./.ve/ 15.1 KiB
+  modules by path ./.ve/*.js 10.6 KiB 2 modules
+  modules by path ./.ve/*.css 2.93 KiB
+    ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
+  ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 2004 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.94cbe2a65ffea1d44300.hot-update.js 11 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.94cbe2a65ffea1d44300.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.94cbe2a65ffea1d44300.hot-update.js 11 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+./src/App.js 4.54 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 5:0-45
+Module not found: Error: Can't resolve './components/MainHome' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/ReportIssue/ReportIssue' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-69
+Module not found: Error: Can't resolve './components/StatusTracker/StatusTracker' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 6 errors in 245 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.42 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.d36bb5989f935da2c689.hot-update.js 15.1 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.d36bb5989f935da2c689.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.42 MiB = bundle.js 1.4 MiB main.d36bb5989f935da2c689.hot-update.js 15.1 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 6.49 KiB
+  ./src/App.js 4.54 KiB [code generated]
+  ./src/components/MainHome.js 1.95 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/ReportIssue/ReportIssue' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-69
+Module not found: Error: Can't resolve './components/StatusTracker/StatusTracker' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 3:0-64
+Module not found: Error: Can't resolve './ReportIssue/IssueCategoryCard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 4:0-60
+Module not found: Error: Can't resolve './ReportIssue/categoriesConfig' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+8 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 8 errors in 131 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.4 MiB [emitted] (name: main)
+  asset main.170035dc6acec74996aa.hot-update.js 6.12 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.170035dc6acec74996aa.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.170035dc6acec74996aa.hot-update.js 6.12 KiB
+cached modules 1.27 MiB [cached] 42 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 2.48 KiB
+  ./src/components/MainHome.js 1.95 KiB [code generated]
+  ./src/components/ReportIssue/categoriesConfig.js 539 bytes [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/ReportIssue/ReportIssue' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-69
+Module not found: Error: Can't resolve './components/StatusTracker/StatusTracker' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 3:0-64
+Module not found: Error: Can't resolve './ReportIssue/IssueCategoryCard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 85 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.41 MiB
+  asset bundle.js 1.41 MiB [emitted] (name: main)
+  asset main.335d1eea73303a6ed909.hot-update.js 7.29 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.335d1eea73303a6ed909.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.41 MiB = bundle.js 1.41 MiB main.335d1eea73303a6ed909.hot-update.js 7.29 KiB
+cached modules 1.27 MiB [cached] 43 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 3.14 KiB
+  ./src/components/MainHome.js 1.95 KiB [code generated]
+  ./src/components/ReportIssue/IssueCategoryCard.js 1.19 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 6:0-63
+Module not found: Error: Can't resolve './components/ReportIssue/ReportIssue' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-69
+Module not found: Error: Can't resolve './components/StatusTracker/StatusTracker' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 6 errors in 229 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.3da0e46588ca9cf9b03d.hot-update.js 21.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.3da0e46588ca9cf9b03d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.3da0e46588ca9cf9b03d.hot-update.js 21.3 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 11.7 KiB
+  ./src/App.js 4.54 KiB [code generated]
+  ./src/components/ReportIssue/ReportIssue.js 7.19 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-69
+Module not found: Error: Can't resolve './components/StatusTracker/StatusTracker' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/ReportIssue/ReportIssue.js 3:0-46
+Module not found: Error: Can't resolve './MapPlaceholder' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components/ReportIssue'
+ @ ./src/App.js 6:0-63 96:39-50
+ @ ./src/index.js 5:0-24 11:32-35
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 6 errors in 193 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.bdfa0c2bac8599fd5a67.hot-update.js 13 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.bdfa0c2bac8599fd5a67.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.42 MiB main.bdfa0c2bac8599fd5a67.hot-update.js 13 KiB
+cached modules 1.27 MiB [cached] 45 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 7.93 KiB
+  ./src/components/ReportIssue/ReportIssue.js 7.19 KiB [code generated]
+  ./src/components/ReportIssue/MapPlaceholder.js 750 bytes [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 7:0-69
+Module not found: Error: Can't resolve './components/StatusTracker/StatusTracker' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 5 errors in 71 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.fe7ad68bd620f1d2c6c7.hot-update.js 16.5 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.fe7ad68bd620f1d2c6c7.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.42 MiB main.fe7ad68bd620f1d2c6c7.hot-update.js 16.5 KiB
+cached modules 1.27 MiB [cached] 46 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 8.24 KiB
+  ./src/App.js 4.54 KiB [code generated]
+  ./src/components/StatusTracker/StatusTracker.js 3.71 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 8:0-72
+Module not found: Error: Can't resolve './components/AdminDashboard/AdminDashboard' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 4 errors in 106 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.45 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.16d5f3827ced001176b3.hot-update.js 20.5 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.16d5f3827ced001176b3.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.45 MiB = bundle.js 1.43 MiB main.16d5f3827ced001176b3.hot-update.js 20.5 KiB
+cached modules 1.28 MiB [cached] 47 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 11.2 KiB
+  ./src/App.js 4.54 KiB [code generated]
+  ./src/components/AdminDashboard/AdminDashboard.js 6.71 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/App.js 9:0-45
+Module not found: Error: Can't resolve './components/NotFound' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 3 errors in 176 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.45 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.6e996e69f0f2de5805be.hot-update.js 12.7 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6e996e69f0f2de5805be.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.45 MiB = bundle.js 1.43 MiB main.6e996e69f0f2de5805be.hot-update.js 12.7 KiB
+cached modules 1.28 MiB [cached] 48 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 5.36 KiB
+  ./src/App.js 4.54 KiB [code generated]
+  ./src/components/NotFound.js 841 bytes [built] [code generated]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 72 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.3e22463b93b33a9fd225.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.92 KiB [emitted]
+asset main.3e22463b93b33a9fd225.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.43 MiB main.3e22463b93b33a9fd225.hot-update.js 854 bytes
+cached modules 1.25 MiB [cached] 37 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 40.1 KiB
+  modules by path ./src/ 27.9 KiB
+    modules by path ./src/components/ 22.8 KiB
+      modules by path ./src/components/ReportIssue/*.js 9.65 KiB 4 modules
+      modules by path ./src/components/*.js 2.77 KiB 2 modules
+      + 2 modules
+    modules by path ./src/*.js 5.05 KiB
+      ./src/index.js 530 bytes [built]
+      ./src/App.js 4.54 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+        /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom doesn't exist
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 334 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.43 MiB
+  asset bundle.js 1.43 MiB [emitted] (name: main)
+  asset main.872b38a9f779d75e8242.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset main.872b38a9f779d75e8242.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.43 MiB = bundle.js 1.43 MiB main.872b38a9f779d75e8242.hot-update.js 854 bytes
+cached modules 1.29 MiB [cached] 50 modules
+runtime modules 27.5 KiB 14 modules
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/App.js 2:0-90
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom is not a file
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+        existing directory /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom is not a file
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+              .jsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+              as directory
+                existing directory /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom
+                  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+                    using path: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index
+                      using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index.js doesn't exist
+                        .jsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index.jsx doesn't exist
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/components/MainHome.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./src/components)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/components/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom is not a file
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+        existing directory /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom
+          using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+            using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom is not a file
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.js doesn't exist
+              .jsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom.jsx doesn't exist
+              as directory
+                existing directory /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom
+                  using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom)
+                    using path: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index
+                      using description file: /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/package.json (relative path: ./node_modules/react-router-dom/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index.js doesn't exist
+                        .jsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/civicalert_frontend/node_modules/react-router-dom/index.jsx doesn't exist
+      /home/kavia/workspace/code-generation/civicalert-35668-377baf8d/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/App.js 5:0-45 90:39-47
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 2 errors in 49 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 2.12 MiB
+  asset bundle.js 1.77 MiB [emitted] (name: main)
+  asset main.3e22463b93b33a9fd225.hot-update.js 356 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.3e22463b93b33a9fd225.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 2.12 MiB = bundle.js 1.77 MiB main.3e22463b93b33a9fd225.hot-update.js 356 KiB
+cached modules 1.28 MiB [cached] 48 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 314 KiB
+  built modules 307 KiB [built]
+    ./node_modules/react-router-dom/dist/index.js 55.4 KiB [built] [code generated]
+    ./node_modules/react-router/dist/index.js 59.3 KiB [built] [code generated]
+    ./node_modules/@remix-run/router/dist/router.js 193 KiB [built] [code generated]
+  modules by path ./src/ 6.49 KiB
+    ./src/App.js 4.54 KiB [code generated]
+    ./src/components/MainHome.js 1.95 KiB [code generated]
+webpack 5.99.9 compiled successfully in 400 ms
+assets by status 1.77 MiB [cached] 2 assets
+cached modules 1.59 MiB (javascript) 28.7 KiB (runtime) [cached] 68 modules
+webpack 5.99.9 compiled successfully in 35 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by path *.js 1.77 MiB
+  asset bundle.js 1.77 MiB [emitted] (name: main)
+  asset main.2351968e30ea3e35b134.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 1.92 KiB [emitted]
+asset main.2351968e30ea3e35b134.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.77 MiB = bundle.js 1.77 MiB main.2351968e30ea3e35b134.hot-update.js 854 bytes
+cached modules 1.55 MiB [cached] 40 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 40.1 KiB
+  modules by path ./src/ 27.9 KiB
+    modules by path ./src/components/ 22.8 KiB
+      modules by path ./src/components/ReportIssue/*.js 9.65 KiB 4 modules
+      modules by path ./src/components/*.js 2.77 KiB 2 modules
+      + 2 modules
+    modules by path ./src/*.js 5.05 KiB
+      ./src/index.js 530 bytes [built]
+      ./src/App.js 4.54 KiB [built]
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+webpack 5.99.9 compiled successfully in 398 ms
